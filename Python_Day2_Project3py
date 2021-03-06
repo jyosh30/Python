@@ -1,0 +1,6 @@
+#BMI Calculation
+Weight = int(input("Enter the weight : "))#weight in Kgs
+Height = int(input("Enter the Height in cms :"))#Height in centimeters
+Height = Height /100 #converting cms into metres
+BMI = Weight/(Height * Height)
+print(float(BMI))

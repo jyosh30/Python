@@ -1,0 +1,5 @@
+#area of triangle
+Breath = int(input("Enter the breath value:"))
+Height = int(input("Enter the height value:"))
+Area = 0.5 * Breath * Height
+print(int(Area))
